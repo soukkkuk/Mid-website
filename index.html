@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manibod Vanviyada — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styleID.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a class="logo" href="#">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 30 L14 12 L20 22 L26 8 L36 30 Z" fill="#0A2947"/>
+        <circle cx="20" cy="10" r="3" fill="#a0724e"/>
+      </svg>
+      Manibod.dev
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Travel</a></li>
+      <li><a href="#">Food &amp; Culture</a></li>
+    </ul>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <svg class="river-line" viewBox="0 0 300 70" preserveAspectRatio="none">
+      <path d="M0 40 Q40 10 80 40 T160 40 T240 40 T320 40" stroke="#0A2947" stroke-width="4" fill="none"/>
+    </svg>
+    <div class="avatar-wrap">
+      <div class="avatar-inner">MV</div>
+    </div>
+    <div class="side-name">Manibod Vanviyada</div>
+    <div class="side-role">Web Developer</div>
+
+    <div class="side-sec">
+      <h4>Contact</h4>
+      <div class="contact-item"><span class="ic">✉</span> soukie@email.com</div>
+      <div class="contact-item"><span class="ic">☎</span> (+856) 20 55605497</div>
+      <div class="contact-item"><span class="ic">📍</span> Pakse, Laos</div>
+      <div class="contact-item"><span class="ic">🌐</span> soukie.dev</div>
+    </div>
+
+    <div class="side-sec">
+      <h4>Education</h4>
+      <div class="edu-item">
+        <div class="yr">2024 — 2028</div>
+        <div class="deg">Bachelor of Information Technology</div>
+        <div class="school">Nguyen Tat Thanh University (NTTU)</div>
+      </div>
+    </div>
+
+    <div class="side-sec">
+      <h4>Skills</h4>
+      <div class="skill-row">
+        <div class="skill-top"><span>HTML / CSS</span><span>90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>JavaScript / React</span><span>75%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>Git</span><span>80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>UI/UX Principles</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>Responsive Design</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+      </div>
+    </div>
+
+    <div class="side-sec">
+      <h4>Beyond Code</h4>
+      <div class="interest-row">
+        <span class="interest-chip">📷 Photography</span>
+        <span class="interest-chip">🍲 Cooking</span>
+        <span class="interest-chip">🎧 Music</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-col">
+    <section>
+      <div class="intro-name">Hi, I'm <span>Manibod.</span></div>
+      <div class="intro-role">Web Developer · Pakse, Laos · IT Student at NTTU</div>
+      <p class="intro-text">Motivated and hardworking Information Technology graduate with a solid foundation in Python, SQL, HTML, and CSS. Experienced in building websites and interfaces through academic projects, with strong problem-solving skills and an eagerness to learn new technologies. Seeking to grow as a Web Developer or Software Developer.</p>
+      <div class="intro-actions">
+        <button class="btn btn-primary">Download CV</button>
+        <button class="btn btn-outline">Contact Me</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Experience</div>
+      <div class="exp-item">
+        <div class="exp-top">
+          <span class="exp-title">Database and Programming Project — University Project</span>
+          <span class="exp-date">2024 – 2026</span>
+        </div>
+        <p class="exp-desc">Built database systems using SQL and developed simple applications using Python. Performed data management, querying, and testing to ensure accurate project outcomes. Worked independently and in teams to solve technical problems and meet deadlines.</p>
+      </div>
+      <div class="exp-item">
+        <div class="exp-top">
+          <span class="exp-title">Web Development Project — University Project</span>
+          <span class="exp-date">2024 – 2025</span>
+        </div>
+        <p class="exp-desc">Developed responsive web pages using HTML and CSS for academic projects. Assisted in designing user-friendly interfaces and improving website layouts. Collaborated with team members to complete project requirements and presentations.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Featured Projects</div>
+      <div class="project-grid">
+        <div class="project-card">
+          <span class="project-tag">Database</span>
+          <h4>University Database System</h4>
+          <p>A SQL-based system for managing and querying academic data, built with Python.</p>
+        </div>
+        <div class="project-card">
+          <span class="project-tag">Web</span>
+          <h4>Responsive Web Project</h4>
+          <p>A fully responsive website built with HTML &amp; CSS as part of a university course.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">
+        <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
+          <path d="M4 30 L14 12 L20 22 L26 8 L36 30 Z" fill="#b6a891"/>
+        </svg>
+        Manibod.dev
+      </div>
+      <p>A personal website sharing my portfolio, travels across Laos, and the food and culture I love.</p>
+      <div class="social-icons">
+        <a href="#">f</a><a href="#">ig</a><a href="#">in</a>
+      </div>
+    </div>
+    <div>
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Food &amp; Culture</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>About</h5>
+      <ul>
+        <li><a href="#">My Story</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <p>soukie@email.com<br>(+856) 20 55605497<br>Pakse, Laos</p>
+    </div>
+  </div>
+  <div class="copyright">© 2026 Manibod Vanviyada. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
