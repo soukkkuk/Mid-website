@@ -2,8 +2,6 @@
 2. MSSV: 2400009318
 3. Mô tả: Trang web này bao gồm ba trang: một Trang Hồ Sơ Cá Nhân, một trang Khám Phá Lào giới thiệu các điểm du lịch nổi tiếng, và một trang Ẩm Thực & Văn Hoá giới thiệu ẩm thực và văn hoá truyền thống của Lào.
 
-4. Link Figma:
-https://www.figma.com/design/VNPxqaHsrju1Hk8XNC9XZr/Web-design?node-id=14-10&t=ZeFCGMdwL57gmjst-1
+4. Link Figma: https://www.figma.com/design/VNPxqaHsrju1Hk8XNC9XZr/Web-design?node-id=14-10&t=ZeFCGMdwL57gmjst-1
 
-6. Link live Demo:
-https://soukkkuk.github.io/Mid-website/
+6. Link live Demo: https://soukkkuk.github.io/Mid-website/
